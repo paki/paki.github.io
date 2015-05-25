@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>hexoでブログつくった | Hexo</title>
+  <title>hexoでブログつくった | User Interfxxk</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="ジェネレータの選定もともと jekyll でなんかやってみようかと思っていたけど、だいぶ時間があいてしまったのであらためてジェネレータを調査するところから。
 静的サイトジェネレータ一覧サイト Static Site Generators でなんとなくあたりをつけてみる。
@@ -12,12 +12,12 @@ HubPress なんかも面白そうだったけど Github Pages に束縛されて
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexoでブログつくった">
 <meta property="og:url" content="http://yoursite.com/2015/05/26/hexoでブログつくった/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="User Interfxxk">
 <meta property="og:description" content="ジェネレータの選定もともと jekyll でなんかやってみようかと思っていたけど、だいぶ時間があいてしまったのであらためてジェネレータを調査するところから。
 静的サイトジェネレータ一覧サイト Static Site Generators でなんとなくあたりをつけてみる。
 HubPress なんかも面白そうだったけど Github Pages に束縛されてしまう…。
 結果、 以下の点が気に入ったので">
-<meta property="og:updated_time" content="2015-05-25T19:29:01.000Z">
+<meta property="og:updated_time" content="2015-05-25T19:29:46.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexoでブログつくった">
 <meta name="twitter:description" content="ジェネレータの選定もともと jekyll でなんかやってみようかと思っていたけど、だいぶ時間があいてしまったのであらためてジェネレータを調査するところから。
@@ -25,7 +25,7 @@ HubPress なんかも面白そうだったけど Github Pages に束縛されて
 HubPress なんかも面白そうだったけど Github Pages に束縛されてしまう…。
 結果、 以下の点が気に入ったので">
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="User Interfxxk" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -43,7 +43,7 @@ HubPress なんかも面白そうだったけど Github Pages に束縛されて
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">User Interfxxk</a>
       </h1>
       
     </div>
@@ -104,7 +104,7 @@ HubPress なんかも面白そうだったけど Github Pages に束縛されて
 </ul>
 <p>※投稿するだけならテンプレートをいじる必要ないです</p>
 <h2 id="準備">準備</h2><p>LIGの <a href="http://liginc.co.jp/web/programming/server/104594" target="_blank" rel="external">hexo紹介記事</a> を見ながらインストール。<br>（ちゃんとまとめると執筆にけっこう時間がかかりそうなので、会社のPRも兼ねてとはいえ大変だろうな〜と思う…。ありがとうございます。）</p>
-<p>ただ、hexo: 3.1.1 ではデプロイのところでこんなエラーが出る。</p>
+<p>ただ、今回インストールした hexo: 3.1.1 ではデプロイのところでこんなエラーが出る。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy -g</span><br><span class="line">（省略）</span><br><span class="line">ERROR Deployer not found: github</span><br></pre></td></tr></table></figure>
 <p>適当にググったところ <a href="https://github.com/hexojs/hexo/issues/1040#issuecomment-104904448" target="_blank" rel="external">hexoのissue</a>  に解決法があった。</p>
 <p>_config.yml の deploy type のとこを編集<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deploy:&#10;  type: git // github &#12391;&#12399;&#12394;&#12367; git &#12434;&#25351;&#23450;</span><br></pre></td></tr></table></figure></p>
