@@ -3,17 +3,27 @@
 <head>
   <meta charset="utf-8">
   
-  <title>User Interfxxk</title>
+  <title>Chrome で 0.0.0.0 が叩けない | User Interfxxk</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="User Interfxxk">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="hexo server すると URL が表示される。
+12$ hexo serverINFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.
+この http://0.0.0.0:4000/ は chrome のアドレスバー（Omnibox）にコピペしても開くことができない。（検索扱いになってしまう）
+デフォルトのブラ">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Chrome で 0.0.0.0 が叩けない">
+<meta property="og:url" content="http://yoursite.com/2015/05/27/Chrome-で-0-0-0-0-が叩けない/index.html">
 <meta property="og:site_name" content="User Interfxxk">
-<meta property="og:description">
+<meta property="og:description" content="hexo server すると URL が表示される。
+12$ hexo serverINFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.
+この http://0.0.0.0:4000/ は chrome のアドレスバー（Omnibox）にコピペしても開くことができない。（検索扱いになってしまう）
+デフォルトのブラ">
+<meta property="og:updated_time" content="2015-05-26T18:07:55.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="User Interfxxk">
-<meta name="twitter:description">
+<meta name="twitter:title" content="Chrome で 0.0.0.0 が叩けない">
+<meta name="twitter:description" content="hexo server すると URL が表示される。
+12$ hexo serverINFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.
+この http://0.0.0.0:4000/ は chrome のアドレスバー（Omnibox）にコピペしても開くことができない。（検索扱いになってしまう）
+デフォルトのブラ">
   
     <link rel="alternative" href="/atom.xml" title="User Interfxxk" type="application/atom+xml">
   
@@ -59,9 +69,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-Chrome-で-0-0-0-0-が叩けない" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Chrome-で-0-0-0-0-が叩けない" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2015/05/27/Chrome-で-0-0-0-0-が叩けない/" class="article-date">
   <time datetime="2015-05-26T17:09:27.000Z" itemprop="datePublished">2015-05-27</time>
@@ -74,8 +82,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/05/27/Chrome-で-0-0-0-0-が叩けない/">Chrome で 0.0.0.0 が叩けない</a>
+    <h1 class="article-title" itemprop="name">
+      Chrome で 0.0.0.0 が叩けない
     </h1>
   
 
@@ -105,71 +113,20 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hexoでブログつくった" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/05/26/hexoでブログつくった/" class="article-date">
-  <time datetime="2015-05-25T18:43:40.000Z" itemprop="datePublished">2015-05-26</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/05/26/hexoでブログつくった/">hexoでブログつくった</a>
-    </h1>
+    <a href="/2015/05/26/hexoでブログつくった/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">hexoでブログつくった</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="ジェネレータの選定">ジェネレータの選定</h2><p>もともと jekyll でなんかやってみようかと思っていたけど、だいぶ時間があいてしまったのであらためてジェネレータを調査するところから。</p>
-<p>静的サイトジェネレータ一覧サイト <a href="https://staticsitegenerators.net/" target="_blank" rel="external">Static Site Generators</a> でなんとなくあたりをつけてみる。</p>
-<p><a href="http://hubpress.io/" target="_blank" rel="external">HubPress</a> なんかも面白そうだったけど Github Pages に束縛されてしまう…。</p>
-<p>結果、 以下の点が気に入ったので <a href="http://hexo.io/" target="_blank" rel="external">hexo</a> にすることにした。</p>
-<ul>
-<li>ローカルで確認しやすい</li>
-<li>markdown で投稿できる</li>
-<li>jekyll とか octpress とかよりは新しめ</li>
-<li>npm で管理できる</li>
-<li>テンプレートエンジンの ejs がなんとなくとっつきやすそうだった</li>
-</ul>
-<p>※投稿するだけならテンプレートをいじる必要ないです</p>
-<h2 id="準備">準備</h2><p>LIGの <a href="http://liginc.co.jp/web/programming/server/104594" target="_blank" rel="external">hexo紹介記事</a> を見ながらインストール。<br>（ちゃんとまとめると執筆にけっこう時間がかかりそうなので、会社のPRも兼ねてとはいえ大変だろうな〜と思う…。ありがとうございます。）</p>
-<p>ただ、今回インストールした hexo: 3.1.1 ではデプロイのところでこんなエラーが出る。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy -g</span><br><span class="line">（省略）</span><br><span class="line">ERROR Deployer not found: github</span><br></pre></td></tr></table></figure>
-<p>適当にググったところ <a href="https://github.com/hexojs/hexo/issues/1040#issuecomment-104904448" target="_blank" rel="external">hexoのissue</a>  に解決法があった。</p>
-<p>_config.yml の deploy type のとこを編集<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deploy:&#10;  type: git // github &#12391;&#12399;&#12394;&#12367; git &#12434;&#25351;&#23450;</span><br></pre></td></tr></table></figure></p>
-<p>hexo-deployer-git を追加でインストール<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
-<p>これで <code>$ hexo deploy -g</code> できるようになる。</p>
-<p>そのまま、この記事を書いてデプロイして完了。<br>「3分」とはいかなかったけど、シンプルな手順なので wordpress の管理画面開くよりも早くて簡単!!</p>
-<h2 id="参考">参考</h2><ul>
-<li><a href="http://liginc.co.jp/web/programming/server/104594" target="_blank" rel="external">所要時間3分!? Github PagesとHEXOで爆速ブログ構築してみよう！</a></li>
-<li><a href="http://qiita.com/okmttdhr/items/82ecb0332835472e905f" target="_blank" rel="external">Github Pagesでブログ構築ができる静的サイトジェネレーター総まとめ</a></li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/05/26/hexoでブログつくった/" data-id="cia5lktow0001kypkavr4obpe" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
 
-
-  
-  
 </section>
         
           <aside id="sidebar">
