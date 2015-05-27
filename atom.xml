@@ -1,25 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"
-  xmlns:atom="http://www.w3.org/2005/Atom"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title><![CDATA[User Interfxxk]]></title>
-    <link>http://paki.github.io/</link>
-    <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
-    <description></description>
-    <pubDate>Wed, 27 May 2015 16:05:08 GMT</pubDate>
-    <generator>http://hexo.io/</generator>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[User Interfxxk]]></title>
+  
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://paki.github.io/"/>
+  <updated>2015-05-27T16:30:52.000Z</updated>
+  <id>http://paki.github.io/</id>
+  
+  <author>
+    <name><![CDATA[paki]]></name>
     
-    <item>
-      <title><![CDATA[Chrome で 0.0.0.0 が叩けない]]></title>
-      <link>http://paki.github.io/2015/05/27/Chrome-%E3%81%A6%E3%82%99-0-0-0-0-%E3%81%8B%E3%82%99%E5%8F%A9%E3%81%91%E3%81%AA%E3%81%84/</link>
-      <guid>http://paki.github.io/2015/05/27/Chrome-%E3%81%A6%E3%82%99-0-0-0-0-%E3%81%8B%E3%82%99%E5%8F%A9%E3%81%91%E3%81%AA%E3%81%84/</guid>
-      <pubDate>Tue, 26 May 2015 17:09:27 GMT</pubDate>
-      <description>
-      <![CDATA[<h2 id="検索扱いになってしまう">検索扱いになってしまう</h2><p><code>hexo server</code> すると URL が表示される。</p>
-<figure class="highlight bash"><table><tr><td class="gu]]>
-      </description>
-      <content:encoded><![CDATA[<h2 id="検索扱いになってしまう">検索扱いになってしまう</h2><p><code>hexo server</code> すると URL が表示される。</p>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[rssフィードをつけた]]></title>
+    <link href="http://paki.github.io/2015/05/28/rss%E3%83%95%E3%82%A3%E3%83%BC%E3%83%88%E3%82%99%E3%82%92%E3%81%A4%E3%81%91%E3%81%9F/"/>
+    <id>http://paki.github.io/2015/05/28/rssフィードをつけた/</id>
+    <published>2015-05-27T16:13:56.000Z</published>
+    <updated>2015-05-27T16:30:52.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="インストールと設定">インストールと設定</h2><p><a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="external">hexo-generator-feed</a> をインストール</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure>
+<p>_config.yml に以下を追記</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">feed:&#10;    type: atom&#10;    path: atom.xml&#10;    limit: 20</span><br></pre></td></tr></table></figure>
+<h2 id="ついでにテーマもいれかえた">ついでにテーマもいれかえた</h2><p>tumblr用の人気テーマ、 <a href="https://github.com/sanographix/tumblr/tree/master/apollo" target="_blank" rel="external">Apollo</a> を誰かが hexo のテーマに改変したもの。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/joyceim/hexo-theme-apollo.git themes/apollo</span><br></pre></td></tr></table></figure>
+<h2 id="参考">参考</h2><ul>
+<li><a href="http://qiita.com/f_prg/items/c5a465c79a9980b98495" target="_blank" rel="external">HexoのRSSフィードプラグインを使ってみる</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="インストールと設定">インストールと設定</h2><p><a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="external">hexo-generator-fe]]>
+    </summary>
+    
+      <category term="hexo" scheme="http://paki.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Chrome で 0.0.0.0 が叩けない]]></title>
+    <link href="http://paki.github.io/2015/05/27/Chrome-%E3%81%A6%E3%82%99-0-0-0-0-%E3%81%8B%E3%82%99%E5%8F%A9%E3%81%91%E3%81%AA%E3%81%84/"/>
+    <id>http://paki.github.io/2015/05/27/Chrome-で-0-0-0-0-が叩けない/</id>
+    <published>2015-05-26T17:09:27.000Z</published>
+    <updated>2015-05-27T16:05:23.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="検索扱いになってしまう">検索扱いになってしまう</h2><p><code>hexo server</code> すると URL が表示される。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br><span class="line">INFO  Hexo is running at http://<span class="number">0.0</span>.<span class="number">0.0</span>:<span class="number">4000</span>/. Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure>
 <p>この <code>http://0.0.0.0:4000/</code> は chrome のアドレスバー（Omnibox）にコピペしても開くことができない。<br>Omnibox は 0 で始まる文字列をURLとして取り扱わないで、検索キーワードとしてgoogle検索にかけてしまうようだ。</p>
 <h2 id="解決">解決</h2><p>デフォルトのブラウザが chrome なら、</p>
@@ -34,20 +59,21 @@
 <li><a href="https://code.google.com/p/chromium/issues/detail?id=428046" target="_blank" rel="external">Issue 428046:  Omnibox refuses to allow navigation to 0.0.0.0</a></li>
 <li><a href="https://code.google.com/p/chromium/issues/detail?id=466329" target="_blank" rel="external">Issue 466329: Can’t visit 0.0.0.0:4200 URLs with a path (i.e., 0.0.0.0:4200/some_path/file.ext)</a></li>
 </ul>
-]]></content:encoded>
-      <comments>http://paki.github.io/2015/05/27/Chrome-%E3%81%A6%E3%82%99-0-0-0-0-%E3%81%8B%E3%82%99%E5%8F%A9%E3%81%91%E3%81%AA%E3%81%84/#disqus_comments</comments>
-    </item>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="検索扱いになってしまう">検索扱いになってしまう</h2><p><code>hexo server</code> すると URL が表示される。</p>
+<figure class="highlight bash"><table><tr><td class="gu]]>
+    </summary>
     
-    <item>
-      <title><![CDATA[hexoでブログつくった]]></title>
-      <link>http://paki.github.io/2015/05/26/hexo%E3%81%A6%E3%82%99%E3%83%95%E3%82%99%E3%83%AD%E3%82%AF%E3%82%99%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%9F/</link>
-      <guid>http://paki.github.io/2015/05/26/hexo%E3%81%A6%E3%82%99%E3%83%95%E3%82%99%E3%83%AD%E3%82%AF%E3%82%99%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%9F/</guid>
-      <pubDate>Mon, 25 May 2015 18:43:40 GMT</pubDate>
-      <description>
-      <![CDATA[<h2 id="ジェネレータの選定">ジェネレータの選定</h2><p>もともと jekyll でなんかやってみようかと思っていたけど、だいぶ時間があいてしまったのであらためてジェネレータを調査するところから。</p>
-<p>静的サイトジェネレータ一覧サイト <a href="h]]>
-      </description>
-      <content:encoded><![CDATA[<h2 id="ジェネレータの選定">ジェネレータの選定</h2><p>もともと jekyll でなんかやってみようかと思っていたけど、だいぶ時間があいてしまったのであらためてジェネレータを調査するところから。</p>
+  </entry>
+  
+  <entry>
+    <title><![CDATA[hexoでブログつくった]]></title>
+    <link href="http://paki.github.io/2015/05/26/hexo%E3%81%A6%E3%82%99%E3%83%95%E3%82%99%E3%83%AD%E3%82%AF%E3%82%99%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%9F/"/>
+    <id>http://paki.github.io/2015/05/26/hexoでブログつくった/</id>
+    <published>2015-05-25T18:43:40.000Z</published>
+    <updated>2015-05-27T16:21:20.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="ジェネレータの選定">ジェネレータの選定</h2><p>もともと jekyll でなんかやってみようかと思っていたけど、だいぶ時間があいてしまったのであらためてジェネレータを調査するところから。</p>
 <p>静的サイトジェネレータ一覧サイト <a href="https://staticsitegenerators.net/" target="_blank" rel="external">Static Site Generators</a> でなんとなくあたりをつけてみる。</p>
 <p><a href="http://hubpress.io/" target="_blank" rel="external">HubPress</a> なんかも面白そうだったけど Github Pages に束縛されてしまう…。</p>
 <p>結果、 以下の点が気に入ったので <a href="http://hexo.io/" target="_blank" rel="external">hexo</a> にすることにした。</p>
@@ -63,7 +89,7 @@
 <p>ただ、今回インストールした hexo: 3.1.1 ではデプロイのところでこんなエラーが出る。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy -g</span><br><span class="line">（省略）</span><br><span class="line">ERROR Deployer not found: github</span><br></pre></td></tr></table></figure>
 <p>適当にググったところ <a href="https://github.com/hexojs/hexo/issues/1040#issuecomment-104904448" target="_blank" rel="external">hexoのissue</a>  に解決法があった。</p>
-<p>_config.yml の deploy type のとこを編集<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deploy:&#10;  type: git // github &#12391;&#12399;&#12394;&#12367; git &#12434;&#25351;&#23450;</span><br></pre></td></tr></table></figure></p>
+<p>_config.yml の deploy type のとこを編集<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deploy:&#10;  type: git # github &#12391;&#12399;&#12394;&#12367; git &#12434;&#25351;&#23450;</span><br></pre></td></tr></table></figure></p>
 <p>hexo-deployer-git を追加でインストール<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
 <p>これで <code>$ hexo deploy -g</code> できるようになる。</p>
 <p>そのまま、この記事を書いてデプロイして完了。<br>「3分」とはいかなかったけど、シンプルな手順なので wordpress の管理画面開くよりも早くて簡単!!</p>
@@ -71,9 +97,14 @@
 <li><a href="http://liginc.co.jp/web/programming/server/104594" target="_blank" rel="external">所要時間3分!? Github PagesとHEXOで爆速ブログ構築してみよう！</a></li>
 <li><a href="http://qiita.com/okmttdhr/items/82ecb0332835472e905f" target="_blank" rel="external">Github Pagesでブログ構築ができる静的サイトジェネレーター総まとめ</a></li>
 </ul>
-]]></content:encoded>
-      <comments>http://paki.github.io/2015/05/26/hexo%E3%81%A6%E3%82%99%E3%83%95%E3%82%99%E3%83%AD%E3%82%AF%E3%82%99%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%9F/#disqus_comments</comments>
-    </item>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="ジェネレータの選定">ジェネレータの選定</h2><p>もともと jekyll でなんかやってみようかと思っていたけど、だいぶ時間があいてしまったのであらためてジェネレータを調査するところから。</p>
+<p>静的サイトジェネレータ一覧サイト <a href="h]]>
+    </summary>
     
-  </channel>
-</rss>
+      <category term="hexo" scheme="http://paki.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>

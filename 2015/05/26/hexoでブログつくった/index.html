@@ -17,7 +17,7 @@ HubPress なんかも面白そうだったけど Github Pages に束縛されて
 静的サイトジェネレータ一覧サイト Static Site Generators でなんとなくあたりをつけてみる。
 HubPress なんかも面白そうだったけど Github Pages に束縛されてしまう…。
 結果、 以下の点が気に入ったので">
-<meta property="og:updated_time" content="2015-05-26T17:08:39.000Z">
+<meta property="og:updated_time" content="2015-05-27T16:21:20.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexoでブログつくった">
 <meta name="twitter:description" content="ジェネレータの選定もともと jekyll でなんかやってみようかと思っていたけど、だいぶ時間があいてしまったのであらためてジェネレータを調査するところから。
@@ -25,7 +25,7 @@ HubPress なんかも面白そうだったけど Github Pages に束縛されて
 HubPress なんかも面白そうだったけど Github Pages に束縛されてしまう…。
 結果、 以下の点が気に入ったので">
   
-    <link rel="alternative" href="/rss2.xml" title="User Interfxxk" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="User Interfxxk" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.ico">
@@ -47,7 +47,7 @@ HubPress なんかも面白そうだったけど Github Pages に束縛されて
 		<ul>
 			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
 			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
-			<li><a href="/rss2.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+			<li><a href="/atom.xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
 		</ul>
 	</nav>
 	<div id="search-form-wrap">
@@ -95,7 +95,7 @@ HubPress なんかも面白そうだったけど Github Pages に束縛されて
 <p>ただ、今回インストールした hexo: 3.1.1 ではデプロイのところでこんなエラーが出る。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy -g</span><br><span class="line">（省略）</span><br><span class="line">ERROR Deployer not found: github</span><br></pre></td></tr></table></figure>
 <p>適当にググったところ <a href="https://github.com/hexojs/hexo/issues/1040#issuecomment-104904448" target="_blank" rel="external">hexoのissue</a>  に解決法があった。</p>
-<p>_config.yml の deploy type のとこを編集<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deploy:&#10;  type: git // github &#12391;&#12399;&#12394;&#12367; git &#12434;&#25351;&#23450;</span><br></pre></td></tr></table></figure></p>
+<p>_config.yml の deploy type のとこを編集<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deploy:&#10;  type: git # github &#12391;&#12399;&#12394;&#12367; git &#12434;&#25351;&#23450;</span><br></pre></td></tr></table></figure></p>
 <p>hexo-deployer-git を追加でインストール<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
 <p>これで <code>$ hexo deploy -g</code> できるようになる。</p>
 <p>そのまま、この記事を書いてデプロイして完了。<br>「3分」とはいかなかったけど、シンプルな手順なので wordpress の管理画面開くよりも早くて簡単!!</p>
@@ -113,6 +113,8 @@ HubPress なんかも面白そうだったけど Github Pages に束縛されて
 			</span>
 			<span class="tags">
 				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+
 			</span>
 		</div>
 	</footer>
