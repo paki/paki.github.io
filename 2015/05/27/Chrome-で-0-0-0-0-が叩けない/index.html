@@ -5,22 +5,28 @@
   
   <title>Chrome で 0.0.0.0 が叩けない | User Interfxxk</title>
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="検索扱いになってしまうhexo server すると URL が表示される。
+  <meta name="description" content="2015-06-15 追記いつのまにか直接入力しても検索扱いにならなくなっていた。（chrome 43.0.2357.81 にて確認）
+
+検索扱いになってしまうhexo server すると URL が表示される。
 12$ hexo serverINFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.
-この http://0.0.0.0:4000/ は chrome のアドレスバー（Omnibox）にコピペしても開くことができない。Omnibox は 0">
+この http:">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Chrome で 0.0.0.0 が叩けない">
 <meta property="og:url" content="http://paki.github.io/2015/05/27/Chrome-で-0-0-0-0-が叩けない/index.html">
 <meta property="og:site_name" content="User Interfxxk">
-<meta property="og:description" content="検索扱いになってしまうhexo server すると URL が表示される。
+<meta property="og:description" content="2015-06-15 追記いつのまにか直接入力しても検索扱いにならなくなっていた。（chrome 43.0.2357.81 にて確認）
+
+検索扱いになってしまうhexo server すると URL が表示される。
 12$ hexo serverINFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.
-この http://0.0.0.0:4000/ は chrome のアドレスバー（Omnibox）にコピペしても開くことができない。Omnibox は 0">
-<meta property="og:updated_time" content="2015-05-27T16:05:23.000Z">
+この http:">
+<meta property="og:updated_time" content="2015-06-15T16:24:11.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Chrome で 0.0.0.0 が叩けない">
-<meta name="twitter:description" content="検索扱いになってしまうhexo server すると URL が表示される。
+<meta name="twitter:description" content="2015-06-15 追記いつのまにか直接入力しても検索扱いにならなくなっていた。（chrome 43.0.2357.81 にて確認）
+
+検索扱いになってしまうhexo server すると URL が表示される。
 12$ hexo serverINFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.
-この http://0.0.0.0:4000/ は chrome のアドレスバー（Omnibox）にコピペしても開くことができない。Omnibox は 0">
+この http:">
   
     <link rel="alternative" href="/atom.xml" title="User Interfxxk" type="application/atom+xml">
   
@@ -87,7 +93,10 @@ ga('send', 'pageview');
 	</header>
 	<div class="entry-content">
 		
-    	<h2 id="検索扱いになってしまう">検索扱いになってしまう</h2><p><code>hexo server</code> すると URL が表示される。</p>
+    	<p><ins></ins></p>
+<h2 id="2015-06-15_追記">2015-06-15 追記</h2><p>いつのまにか直接入力しても検索扱いにならなくなっていた。<br>（chrome 43.0.2357.81 にて確認）<br></p>
+<hr>
+<h2 id="検索扱いになってしまう">検索扱いになってしまう</h2><p><code>hexo server</code> すると URL が表示される。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br><span class="line">INFO  Hexo is running at http://<span class="number">0.0</span>.<span class="number">0.0</span>:<span class="number">4000</span>/. Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure>
 <p>この <code>http://0.0.0.0:4000/</code> は chrome のアドレスバー（Omnibox）にコピペしても開くことができない。<br>Omnibox は 0 で始まる文字列をURLとして取り扱わないで、検索キーワードとしてgoogle検索にかけてしまうようだ。</p>
 <h2 id="解決">解決</h2><p>デフォルトのブラウザが chrome なら、</p>

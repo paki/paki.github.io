@@ -262,7 +262,10 @@ ga('send', 'pageview');
 	</header>
 	<div class="entry-content">
 		
-    	<h2 id="検索扱いになってしまう">検索扱いになってしまう</h2><p><code>hexo server</code> すると URL が表示される。</p>
+    	<p><ins></ins></p>
+<h2 id="2015-06-15_追記">2015-06-15 追記</h2><p>いつのまにか直接入力しても検索扱いにならなくなっていた。<br>（chrome 43.0.2357.81 にて確認）<br></p>
+<hr>
+<h2 id="検索扱いになってしまう">検索扱いになってしまう</h2><p><code>hexo server</code> すると URL が表示される。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br><span class="line">INFO  Hexo is running at http://<span class="number">0.0</span>.<span class="number">0.0</span>:<span class="number">4000</span>/. Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure>
 <p>この <code>http://0.0.0.0:4000/</code> は chrome のアドレスバー（Omnibox）にコピペしても開くことができない。<br>Omnibox は 0 で始まる文字列をURLとして取り扱わないで、検索キーワードとしてgoogle検索にかけてしまうようだ。</p>
 <h2 id="解決">解決</h2><p>デフォルトのブラウザが chrome なら、</p>
