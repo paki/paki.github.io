@@ -1,6 +1,6 @@
 title: Chrome で 0.0.0.0 が叩けない
 date: 2015-05-27 02:09:27
-tags:
+tags: [chrome]
 ---
 <ins>
 ## 2015-06-15 追記
