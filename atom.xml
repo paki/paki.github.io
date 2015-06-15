@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://paki.github.io/"/>
-  <updated>2015-06-13T17:59:14.000Z</updated>
+  <updated>2015-06-15T16:47:23.000Z</updated>
   <id>http://paki.github.io/</id>
   
   <author>
@@ -13,6 +13,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[hexo で日本語パーマリンク]]></title>
+    <link href="http://paki.github.io/2015/06/16/hexo-%E3%81%A7%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%91%E3%83%BC%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%AF/"/>
+    <id>http://paki.github.io/2015/06/16/hexo-で日本語パーマリンク/</id>
+    <published>2015-06-15T16:41:08.000Z</published>
+    <updated>2015-06-15T16:47:23.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="404になってしまう">404になってしまう</h1><p>サイト内でリンクを踏むと、日本語を含むアドレスがなぜか404になってしまっていた。<br>以前確認した時は問題なかった気がするのだけど…。</p>
+<h1 id="改修">改修</h1><p>既知の問題らしく、検索したらすぐ答えが出た。<br><a href="http://atani.github.io/2015/06/hexo%E3%81%A7%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%83%91%E3%83%BC%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%92%E8%A6%8B%E3%82%8C%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%82%88%E3%81%86%EF%BC%81/" target="_blank" rel="external">ここ</a> に書いてあるとおり対応して確認、問題なく遷移できた!  </p>
+<h2 id="参考">参考</h2><ul>
+<li><a href="http://atani.github.io/2015/06/hexo%E3%81%A7%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%83%91%E3%83%BC%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%92%E8%A6%8B%E3%82%8C%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%82%88%E3%81%86%EF%BC%81/" target="_blank" rel="external">hexoで日本語のパーマリンクを見れるようにしよう！</a></li>
+<li><a href="http://harasou.github.io/2015/05/10/hexo-%E3%81%A7-404-File-not-found/" target="_blank" rel="external">hexo で 404 File not found</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="404になってしまう">404になってしまう</h1><p>サイト内でリンクを踏むと、日本語を含むアドレスがなぜか404になってしまっていた。<br>以前確認した時は問題なかった気がするのだけど…。</p>
+<h1 id="改修">改修</h1><p>既知の問題ら]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[atom をもう一度触ってみる]]></title>
