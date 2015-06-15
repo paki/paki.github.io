@@ -38,8 +38,8 @@
   
   <entry>
     <title><![CDATA[ブログのソース管理と git submodule deinit]]></title>
-    <link href="http://paki.github.io/2015/05/29/%E3%83%95%E3%82%99%E3%83%AD%E3%82%AF%E3%82%99%E3%81%AE%E3%82%BD%E3%83%BC%E3%82%B9%E7%AE%A1%E7%90%86%E3%81%A8-git-submodule-deinit/"/>
-    <id>http://paki.github.io/2015/05/29/ブログのソース管理と-git-submodule-deinit/</id>
+    <link href="http://paki.github.io/2015/05/29/%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AE%E3%82%BD%E3%83%BC%E3%82%B9%E7%AE%A1%E7%90%86%E3%81%A8-git-submodule-deinit/"/>
+    <id>http://paki.github.io/2015/05/29/ブログのソース管理と-git-submodule-deinit/</id>
     <published>2015-05-28T16:41:52.000Z</published>
     <updated>2015-05-28T17:41:23.000Z</updated>
     <content type="html"><![CDATA[<h2 id="ソースも_git_で管理したかった">ソースも git で管理したかった</h2><p><code>$ hexo deploy -g</code> するとページを生成しつつ公開用に push してくれるが、生成元の markdown ファイルや _config.yaml も git で管理したかった。</p>
@@ -77,8 +77,8 @@
   
   <entry>
     <title><![CDATA[rssフィードをつけた]]></title>
-    <link href="http://paki.github.io/2015/05/28/rss%E3%83%95%E3%82%A3%E3%83%BC%E3%83%88%E3%82%99%E3%82%92%E3%81%A4%E3%81%91%E3%81%9F/"/>
-    <id>http://paki.github.io/2015/05/28/rssフィードをつけた/</id>
+    <link href="http://paki.github.io/2015/05/28/rss%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%82%92%E3%81%A4%E3%81%91%E3%81%9F/"/>
+    <id>http://paki.github.io/2015/05/28/rssフィードをつけた/</id>
     <published>2015-05-27T16:13:56.000Z</published>
     <updated>2015-05-27T16:30:52.000Z</updated>
     <content type="html"><![CDATA[<h2 id="インストールと設定">インストールと設定</h2><p><a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="external">hexo-generator-feed</a> をインストール</p>
@@ -101,8 +101,8 @@
   
   <entry>
     <title><![CDATA[Chrome で 0.0.0.0 が叩けない]]></title>
-    <link href="http://paki.github.io/2015/05/27/Chrome-%E3%81%A6%E3%82%99-0-0-0-0-%E3%81%8B%E3%82%99%E5%8F%A9%E3%81%91%E3%81%AA%E3%81%84/"/>
-    <id>http://paki.github.io/2015/05/27/Chrome-で-0-0-0-0-が叩けない/</id>
+    <link href="http://paki.github.io/2015/05/27/Chrome-%E3%81%A7-0-0-0-0-%E3%81%8C%E5%8F%A9%E3%81%91%E3%81%AA%E3%81%84/"/>
+    <id>http://paki.github.io/2015/05/27/Chrome-で-0-0-0-0-が叩けない/</id>
     <published>2015-05-26T17:09:27.000Z</published>
     <updated>2015-06-15T16:24:11.000Z</updated>
     <content type="html"><![CDATA[<p><ins></ins></p>
@@ -135,8 +135,8 @@
   
   <entry>
     <title><![CDATA[hexoでブログつくった]]></title>
-    <link href="http://paki.github.io/2015/05/26/hexo%E3%81%A6%E3%82%99%E3%83%95%E3%82%99%E3%83%AD%E3%82%AF%E3%82%99%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%9F/"/>
-    <id>http://paki.github.io/2015/05/26/hexoでブログつくった/</id>
+    <link href="http://paki.github.io/2015/05/26/hexo%E3%81%A7%E3%83%96%E3%83%AD%E3%82%B0%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%9F/"/>
+    <id>http://paki.github.io/2015/05/26/hexoでブログつくった/</id>
     <published>2015-05-25T18:43:40.000Z</published>
     <updated>2015-05-27T16:21:20.000Z</updated>
     <content type="html"><![CDATA[<h2 id="ジェネレータの選定">ジェネレータの選定</h2><p>もともと jekyll でなんかやってみようかと思っていたけど、だいぶ時間があいてしまったのであらためてジェネレータを調査するところから。</p>
