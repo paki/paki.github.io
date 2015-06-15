@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://paki.github.io/"/>
-  <updated>2015-06-15T16:47:23.000Z</updated>
+  <updated>2015-06-15T17:28:24.000Z</updated>
   <id>http://paki.github.io/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://paki.github.io/2015/06/16/hexo-%E3%81%A7%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%91%E3%83%BC%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%AF/"/>
     <id>http://paki.github.io/2015/06/16/hexo-で日本語パーマリンク/</id>
     <published>2015-06-15T16:41:08.000Z</published>
-    <updated>2015-06-15T16:47:23.000Z</updated>
+    <updated>2015-06-15T17:28:24.000Z</updated>
     <content type="html"><![CDATA[<h1 id="404になってしまう">404になってしまう</h1><p>サイト内でリンクを踏むと、日本語を含むアドレスがなぜか404になってしまっていた。<br>以前確認した時は問題なかった気がするのだけど…。</p>
 <h1 id="改修">改修</h1><p>既知の問題らしく、検索したらすぐ答えが出た。<br><a href="http://atani.github.io/2015/06/hexo%E3%81%A7%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%83%91%E3%83%BC%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%92%E8%A6%8B%E3%82%8C%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%82%88%E3%81%86%EF%BC%81/" target="_blank" rel="external">ここ</a> に書いてあるとおり対応して確認、問題なく遷移できた!  </p>
 <h2 id="参考">参考</h2><ul>
@@ -32,6 +32,8 @@
 <h1 id="改修">改修</h1><p>既知の問題ら]]>
     </summary>
     
+      <category term="hexo" scheme="http://paki.github.io/tags/hexo/"/>
+    
   </entry>
   
   <entry>
@@ -39,7 +41,7 @@
     <link href="http://paki.github.io/2015/06/14/atom-%E3%81%AB%E4%B9%97%E3%82%8A%E6%8F%9B%E3%81%88%E3%82%8B/"/>
     <id>http://paki.github.io/2015/06/14/atom-に乗り換える/</id>
     <published>2015-06-13T17:10:53.000Z</published>
-    <updated>2015-06-13T17:59:14.000Z</updated>
+    <updated>2015-06-15T17:06:30.000Z</updated>
     <content type="html"><![CDATA[<p>ここ数年エディタは sublime text が気に入っていて、 st3 のライセンスも買ったしメモ書きにもずっと使っている。最近人気の atom はだいぶ前にちょっと試してみたきり、いろいろと納得いかなくて乗り換えには至らなかった（大きめの CSS を開くとシンタックスハイライトが処理しきれずに落ちたりしてた…）。<br>ただ、2月に Frontrend Conference でたまたま見たセッション、 <strong> “Styling Atom(Editor)”</strong> （<a href="https://www.youtube.com/watch?v=y_pkHOBy1Jc" target="_blank" rel="external">動画</a>）でカスタマイズの面白さを知ったので、（もう6月になっちゃったけど）もう一度試してみることにした。</p>
 <hr>
 <p>sublime の時は <a href="https://github.com/bordaigorl/sublime-evernote" target="_blank" rel="external">sublime-evernote</a> というプラグインを使ってて、これで evernote の編集をしていた。markdown でも書けるし、メモの検索やタグ付けもできる。<br>当初は日本語タグにうまく対応できていなかったんだけれど、 fork してそこだけ修正して使ってたら作者が勝手に見つけて取り込んでくれた。</p>
@@ -53,6 +55,8 @@
       <category term="atom" scheme="http://paki.github.io/tags/atom/"/>
     
       <category term="evernote" scheme="http://paki.github.io/tags/evernote/"/>
+    
+      <category term="sublime text" scheme="http://paki.github.io/tags/sublime-text/"/>
     
   </entry>
   
@@ -124,7 +128,7 @@
     <link href="http://paki.github.io/2015/05/27/Chrome-%E3%81%A7-0-0-0-0-%E3%81%8C%E5%8F%A9%E3%81%91%E3%81%AA%E3%81%84/"/>
     <id>http://paki.github.io/2015/05/27/Chrome-で-0-0-0-0-が叩けない/</id>
     <published>2015-05-26T17:09:27.000Z</published>
-    <updated>2015-06-15T16:24:11.000Z</updated>
+    <updated>2015-06-15T17:05:58.000Z</updated>
     <content type="html"><![CDATA[<p><ins></ins></p>
 <h2 id="2015-06-15_追記">2015-06-15 追記</h2><p>いつのまにか直接入力しても検索扱いにならなくなっていた。<br>（chrome 43.0.2357.81 にて確認）<br></p>
 <hr>
@@ -150,6 +154,8 @@
 <hr>
 <h2 i]]>
     </summary>
+    
+      <category term="chrome" scheme="http://paki.github.io/tags/chrome/"/>
     
   </entry>
   
