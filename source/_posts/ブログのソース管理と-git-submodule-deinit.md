@@ -91,7 +91,7 @@ No submodule mapping found in .gitmodules for path 'themes/apollo'
 $ git rm --cached themes/apollo/
 $ git add themes/apollo/
 $ git submodule deinit themes/apollo/
-$ git st
+$ git status
 ```
 
 うまくいった!!
@@ -100,5 +100,5 @@ $ git st
 （ブログ公開用リポジトリに、別ブランチでソースを push できた）
 やれやれ。
 
-[a]:http://harasou.github.io/2015/04/28/hexo-%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%83%A1%E3%83%A2/ "hexo セットアップメモ"
+[a]:https://harasou.jp/2015/04/28/hexo-setup/ "hexo セットアップメモ"
 [b]:http://qiita.com/AtsushiShimo/items/b26c4d2033eb220bb8f9 "Composer install したらgit submodule化してしまった"
