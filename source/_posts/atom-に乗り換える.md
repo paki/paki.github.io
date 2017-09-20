@@ -3,6 +3,9 @@ date: 2015-06-14 02:10:53
 tags: [atom, evernote, sublime text]
 ---
 ここ数年エディタは sublime text が気に入っていて、 st3 のライセンスも買ったしメモ書きにもずっと使っている。最近人気の atom はだいぶ前にちょっと試してみたきり、いろいろと納得いかなくて乗り換えには至らなかった（大きめの CSS を開くとシンタックスハイライトが処理しきれずに落ちたりしてた…）。  
+
+<!-- more -->
+
 ただ、2月に Frontrend Conference でたまたま見たセッション、 ** "Styling Atom(Editor)"** （[動画](https://www.youtube.com/watch?v=y_pkHOBy1Jc)）でカスタマイズの面白さを知ったので、（もう6月になっちゃったけど）もう一度試してみることにした。
 
 ___

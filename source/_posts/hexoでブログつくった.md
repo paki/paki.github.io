@@ -6,6 +6,8 @@ tags: [hexo]
 
 もともと jekyll でなんかやってみようかと思っていたけど、だいぶ時間があいてしまったのであらためてジェネレータを調査するところから。
 
+<!-- more -->
+
 静的サイトジェネレータ一覧サイト [Static Site Generators](https://staticsitegenerators.net/) でなんとなくあたりをつけてみる。
 
 [HubPress](http://hubpress.io/) なんかも面白そうだったけど Github Pages に束縛されてしまう…。

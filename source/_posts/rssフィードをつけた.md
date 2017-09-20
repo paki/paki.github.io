@@ -20,6 +20,8 @@ feed:
     limit: 20
 ```
 
+<!-- more -->
+
 ## ついでにテーマもいれかえた
 
 tumblr用の人気テーマ、 [Apollo](https://github.com/sanographix/tumblr/tree/master/apollo) を誰かが hexo のテーマに改変したもの。
