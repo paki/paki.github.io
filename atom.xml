@@ -2,10 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>User Interfxxk</title>
   
+  
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://paki.github.io/"/>
-  <updated>2015-06-15T17:28:24.000Z</updated>
+  <updated>2017-09-20T17:24:28.000Z</updated>
   <id>http://paki.github.io/</id>
   
   <author>
@@ -16,23 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>HTML5ゲームのいま</title>
+    <link href="http://paki.github.io/2017/09/21/HTML5%E3%82%B1%E3%82%99%E3%83%BC%E3%83%A0%E3%81%AE%E3%81%84%E3%81%BE/"/>
+    <id>http://paki.github.io/2017/09/21/HTML5ゲームのいま/</id>
+    <published>2017-09-20T15:49:00.000Z</published>
+    <updated>2017-09-20T17:24:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>「ネイティブシフト」が叫ばれて久しく、かつてのHTML製ブラウザゲームは選択肢の一つに過ぎなくなってしまった。<br>だが、これはそれとまた違ったいまどきのHTMLゲームのはなし。</p><a id="more"></a><h2 id="海外のHTML5ゲーム"><a href="#海外のHTML5ゲーム" class="headerlink" title="海外のHTML5ゲーム"></a>海外のHTML5ゲーム</h2><p>▶ <a href="http://thebridge.jp/2016/11/facebook-messenger-instant-games" target="_blank" rel="external">FacebookがMessenger上で遊べる「Instant Games」を計画中——HTML5ゲームデベロッパへの高まる期待感</a><br>▶ <a href="http://blog.livedoor.jp/sugochina/archives/1062738037.html" target="_blank" rel="external">Tencent、来年度HTML5ゲームのKPI50億元に設定</a>  </p><p>昨年末あたりから、FBメッセンジャーやWeChatなどのメッセンジャーサービスにゲーム機能が追加され始めた。</p><p>ここで言う「HTML5ゲーム」とはどちらかというと『Candy Crush』みたいなカジュアルゲームに近い形で、メッセージのやりとりのスキマに遊んでもらってハイスコア情報などをそのままメッセージとして友達に送って競い合ってもらう…といったもの。  </p><p>課金まわりもガチャではなく 時短アイテム または 使い捨てアイテム の購入がメイン（いまのところは）。<br>ゲームの雰囲気としては『LINE ウィンドランナー』や『LINE ドラゴンフライト』みたいな初期のLINEのゲームに近く、やればすぐわかるシンプルなゲーム性でプレイ時間もだいたい30 -60秒程度と短く抑えられている。  </p><figure><br>  <img src="/images/IMG_9986.PNG" style="width:300px;" title="EverWing"><br>  <figcaption style="text-align:center;">「EverWing」の飛び散るパーティクル</figcaption><br></figure><p>例えば、ドラゴンフライトそっくり（パクリ…?）な『<a href="http://www.playeverwing.com/" target="_blank" rel="external">EverWing</a>』。<br>これはHTMLゲームエンジン「Blackstorm」で作られており、レスポンスもビジュアルもネイティブアプリのドラゴンフライトと遜色ない仕上がり。<br>FBメッセンジャーをインストールしていれば、フッターの「ゲーム」メニューから見つけられると思う。試してみてほしい。</p><hr><p>これらは、なぜネイティブではなくていまさらHTMLでゲームなのか?というと、以下のような理由かなと考えている。</p><ol><li>各デベロッパに作らせたゲームを、比較的簡単にメッセンジャーアプリに組込可能（大雑把な言い方をすると、ほぼ webview を開くだけ）</li><li>アプリのインストール不要、メッセンジャーから離脱せずに即プレイ開始させられる</li><li>端末が高性能化しつつあるため、表現的に十分になりつつある</li><li>高性能・高機能なHTMLゲームエンジンがでてきた</li></ol><h2 id="日本のHTML5ゲーム"><a href="#日本のHTML5ゲーム" class="headerlink" title="日本のHTML5ゲーム"></a>日本のHTML5ゲーム</h2><p>ここまでは基本的に海外の話。<br>では、日本国内ではどうなのか。</p><p>▶ <a href="https://about.yahoo.co.jp/pr/release/2017/07/18a/" target="_blank" rel="external">高品質なゲーム配信が可能になる次世代型ブラウザゲームプラットフォーム 『Yahoo!ゲーム　ゲームプラス』を本日オープン</a><br>▶ <a href="http://www.4gamer.net/games/376/G037640/20170502130/" target="_blank" rel="external">楽天ゲームズ 荒木重則代表に聞く。新プラットフォーム「RGames」は何を目指すのか。HTML5と楽天のネットワークがもたらすゲーム体験とは</a><br>▶ <a href="https://japan.cnet.com/article/35101750/" target="_blank" rel="external">「BXD」が狙うHTML5活用ブラウザゲームの需要–ファミスタ、アイマス新作を投入</a></p><p>すでにオープンしているサービスとしては以下。</p><ul><li>Yahoo!の 「<a href="https://games.yahoo-net.jp/" target="_blank" rel="external">ゲームプラス</a>」</li><li>楽天の 「<a href="https://rgames.jp/" target="_blank" rel="external">Rakuten Games</a>」</li></ul><p>つづけて、来春にはバンナム x ドリコムの「BXD」が立ち上がるそう。<br>アイマスの新作、ブラウザ上で無料で遊べちまうんだ!<br>まさか、リズムゲーだったらもっと驚いちゃうな。  </p><p>…ともあれあらためてタイトルを見ると、楽天のようにカジュアルゲームメインのところもあるけれど、Yahoo!とBXDはいわゆるソシャゲっぽいラインナップ。<br>配信先としてもFBメッセンジャーなどではなくて、自前でプラットフォームを用意するところからなのでやはりちょっと方向性が異なる。  </p><p>可能な限りいまのネイティブアプリのゲームと変わらないものを用意するつもりのようで、『ワンピース トレジャークルーズ』がそのまんまブラウザで動くデモや、『<a href="http://antique-carnevale.jp/" target="_blank" rel="external">アンティーク カルネヴァーレ</a>』のようなHTML5ゲームとしてわざわざ用意した新作もある。   </p><figure><br>  <img src="/images/IMG_9993.PNG" style="height:300px;" title="アンティーク カルネヴァーレ"><br>  <figcaption style="text-align:center;">「アンティーク カルネヴァーレ」のクエスト</figcaption><br></figure><p>これはすでにリリース済みなのでプレイしてみたけれど、もうパっと見ではブラウザ上で動いていることに気づかないレベルだった。<br>（iPhoneでは、アドレスバーを消して全画面表示にするのにちょっとコツが要るが…）</p><h2 id="かつてとは作り方が違う"><a href="#かつてとは作り方が違う" class="headerlink" title="かつてとは作り方が違う"></a>かつてとは作り方が違う</h2><p>さて、冒頭で「かつてのHTML製ブラウザゲームと違う」と書いたが、遊ばせ方だけではなくてゲームの作り方の点でいまのHTML5ゲームは大きな違いがある。<br>かつては一般的なWebサイト制作の延長として、四苦八苦しながら無理やり凝ったレイアウトやアニメーションを実現していた。<br>（そもそもHTMLはゲームを表現するものではないので、凝ったビジュアルやアニメーションを見せるにも限界がある）  </p><hr><p>が、いまや各種ゲームエンジンの支援があればネイティブアプリを作るのと同じような過程で開発でき、ゲームらしさにあふれるさまざまなビジュアル表現が可能となる。<br>『EverWing』の紹介で触れた「Blackstorm」などはかなりできがよいエンジンで、様々なオブジェクトを動かしながら同時にパーティクルを撒き散らかすこともできる。しかも、操作のレスポンスは維持したままで。<br>楽天は「Rakuten Games」を立ち上げるにあたって開発元の <a href="http://blackstormlabs.com/" target="_blank" rel="external">Blackstorm Labs</a> と提携を結んでいる。また、FB Instant Games でも多くのゲームがこのエンジンを採用している。  </p><p>一方、Yahoo! の「ゲームプラス」は <a href="https://www.wizcorp.jp/ja/" target="_blank" rel="external">Wizcorp</a> の「Spear.js」を推奨しており、前述の 「アンティーク カルネヴァーレ」はこれを採用している。</p><hr><p>ところで、”HTML5ゲーム”とはいうものの…。いずれのエンジンも1枚の canvas 要素にまるっと描画しているようなので、HTMLの役割はもはや単なるハコのようなものだ。  </p><p>実際にブラウザのデベロッパーツールで覗き見してみると、  </p><ul><li>ゲームエンジンの js</li><li>ゲームアプリの js</li><li>プラットフォームに連携する都合で必要な大量の js</li><li>ぽつんと置かれた canvas 要素</li></ul><p>が見られると思う。</p><p>また、これらのエンジンは商用で、体験版なども見当たらなかったので実際どんな使い勝手なのかは分からなかった。<br>機会があれば、どんなものかぜひ見てみたいけれど…。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;「ネイティブシフト」が叫ばれて久しく、かつてのHTML製ブラウザゲームは選択肢の一つに過ぎなくなってしまった。&lt;br&gt;だが、これはそれとまた違ったいまどきのHTMLゲームのはなし。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="game" scheme="http://paki.github.io/tags/game/"/>
+    
+      <category term="html" scheme="http://paki.github.io/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo で日本語パーマリンク</title>
     <link href="http://paki.github.io/2015/06/16/hexo-%E3%81%A6%E3%82%99%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%8F%E3%82%9A%E3%83%BC%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%AF/"/>
     <id>http://paki.github.io/2015/06/16/hexo-で日本語パーマリンク/</id>
     <published>2015-06-15T16:41:08.000Z</published>
-    <updated>2015-06-15T17:28:24.000Z</updated>
+    <updated>2017-09-20T16:03:37.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="404になってしまう"><a href="#404になってしまう" class="headerlink" title="404になってしまう"></a>404になってしまう</h1><p>サイト内でリンクを踏むと、日本語を含むアドレスがなぜか404になってしまっていた。<br>以前確認した時は問題なかった気がするのだけど…。</p>
-<h1 id="改修"><a href="#改修" class="headerlink" title="改修"></a>改修</h1><p>既知の問題らしく、検索したらすぐ答えが出た。<br><a href="http://atani.github.io/2015/06/hexo%E3%81%A7%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%83%91%E3%83%BC%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%92%E8%A6%8B%E3%82%8C%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%82%88%E3%81%86%EF%BC%81/" target="_blank" rel="external">ここ</a> に書いてあるとおり対応して確認、問題なく遷移できた!  </p>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
-<li><a href="http://atani.github.io/2015/06/hexo%E3%81%A7%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%83%91%E3%83%BC%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%92%E8%A6%8B%E3%82%8C%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%82%88%E3%81%86%EF%BC%81/" target="_blank" rel="external">hexoで日本語のパーマリンクを見れるようにしよう！</a></li>
-<li><a href="http://harasou.github.io/2015/05/10/hexo-%E3%81%A7-404-File-not-found/" target="_blank" rel="external">hexo で 404 File not found</a></li>
-</ul>
-]]></content>
+    <content type="html"><![CDATA[<h1 id="404になってしまう"><a href="#404になってしまう" class="headerlink" title="404になってしまう"></a>404になってしまう</h1><p>サイト内でリンクを踏むと、日本語を含むアドレスがなぜか404になってしまっていた。<br>以前確認した時は問題なかった気がするのだけど…。</p><a id="more"></a><h1 id="改修"><a href="#改修" class="headerlink" title="改修"></a>改修</h1><p>既知の問題らしく、検索したらすぐ答えが出た。<br><a href="http://atani.github.io/2015/06/hexo%E3%81%A7%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%83%91%E3%83%BC%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%92%E8%A6%8B%E3%82%8C%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%82%88%E3%81%86%EF%BC%81/" target="_blank" rel="external">ここ</a> に書いてあるとおり対応して確認、問題なく遷移できた!  </p><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="http://atani.github.io/2015/06/hexo%E3%81%A7%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E3%83%91%E3%83%BC%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%92%E8%A6%8B%E3%82%8C%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%97%E3%82%88%E3%81%86%EF%BC%81/" target="_blank" rel="external">hexoで日本語のパーマリンクを見れるようにしよう！</a></li><li><a href="http://harasou.github.io/2015/05/10/hexo-%E3%81%A7-404-File-not-found/" target="_blank" rel="external">hexo で 404 File not found</a></li></ul>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;404になってしまう&quot;&gt;&lt;a href=&quot;#404になってしまう&quot; class=&quot;headerlink&quot; title=&quot;404になってしまう&quot;&gt;&lt;/a&gt;404になってしまう&lt;/h1&gt;&lt;p&gt;サイト内でリンクを踏むと、日本語を含むアドレスがなぜか404になってしまって
+      &lt;h1 id=&quot;404になってしまう&quot;&gt;&lt;a href=&quot;#404になってしまう&quot; class=&quot;headerlink&quot; title=&quot;404になってしまう&quot;&gt;&lt;/a&gt;404になってしまう&lt;/h1&gt;&lt;p&gt;サイト内でリンクを踏むと、日本語を含むアドレスがなぜか404になってしまっていた。&lt;br&gt;以前確認した時は問題なかった気がするのだけど…。&lt;/p&gt;
     
     </summary>
     
@@ -46,18 +63,13 @@
     <link href="http://paki.github.io/2015/06/14/atom-%E3%81%AB%E4%B9%97%E3%82%8A%E6%8F%9B%E3%81%88%E3%82%8B/"/>
     <id>http://paki.github.io/2015/06/14/atom-に乗り換える/</id>
     <published>2015-06-13T17:10:53.000Z</published>
-    <updated>2015-06-15T17:06:30.000Z</updated>
+    <updated>2017-09-20T16:02:54.000Z</updated>
     
-    <content type="html"><![CDATA[<p>ここ数年エディタは sublime text が気に入っていて、 st3 のライセンスも買ったしメモ書きにもずっと使っている。最近人気の atom はだいぶ前にちょっと試してみたきり、いろいろと納得いかなくて乗り換えには至らなかった（大きめの CSS を開くとシンタックスハイライトが処理しきれずに落ちたりしてた…）。<br>ただ、2月に Frontrend Conference でたまたま見たセッション、 <strong> “Styling Atom(Editor)”</strong> （<a href="https://www.youtube.com/watch?v=y_pkHOBy1Jc" target="_blank" rel="external">動画</a>）でカスタマイズの面白さを知ったので、（もう6月になっちゃったけど）もう一度試してみることにした。</p>
-<hr>
-<p>sublime の時は <a href="https://github.com/bordaigorl/sublime-evernote" target="_blank" rel="external">sublime-evernote</a> というプラグインを使ってて、これで evernote の編集をしていた。markdown でも書けるし、メモの検索やタグ付けもできる。<br>当初は日本語タグにうまく対応できていなかったんだけれど、 fork してそこだけ修正して使ってたら作者が勝手に見つけて取り込んでくれた。</p>
-<p>atom の場合はちょっと調べてみたところ <a href="https://atom.io/packages/ever-notedown" target="_blank" rel="external">EVND (Ever Notedown)</a> が良さそうだったが、<a href="https://www.evernote.com/shard/s68/sh/782d6000-361f-4963-b3c1-84ff6af2b625/971f599e4c39cd8f" target="_blank" rel="external">ドキュメント</a> によると環境構築がちょっとめんどうだった。<br>（保存先を作れだとかなんとか）</p>
-<p>一応ひととおり内容を把握してからやりたいので続きはまた今度することにした。</p>
-]]></content>
+    <content type="html"><![CDATA[<p>ここ数年エディタは sublime text が気に入っていて、 st3 のライセンスも買ったしメモ書きにもずっと使っている。最近人気の atom はだいぶ前にちょっと試してみたきり、いろいろと納得いかなくて乗り換えには至らなかった（大きめの CSS を開くとシンタックスハイライトが処理しきれずに落ちたりしてた…）。  </p><a id="more"></a><p>ただ、2月に Frontrend Conference でたまたま見たセッション、 <strong> “Styling Atom(Editor)”</strong> （<a href="https://www.youtube.com/watch?v=y_pkHOBy1Jc" target="_blank" rel="external">動画</a>）でカスタマイズの面白さを知ったので、（もう6月になっちゃったけど）もう一度試してみることにした。</p><hr><p>sublime の時は <a href="https://github.com/bordaigorl/sublime-evernote" target="_blank" rel="external">sublime-evernote</a> というプラグインを使ってて、これで evernote の編集をしていた。markdown でも書けるし、メモの検索やタグ付けもできる。<br>当初は日本語タグにうまく対応できていなかったんだけれど、 fork してそこだけ修正して使ってたら作者が勝手に見つけて取り込んでくれた。</p><p>atom の場合はちょっと調べてみたところ <a href="https://atom.io/packages/ever-notedown" target="_blank" rel="external">EVND (Ever Notedown)</a> が良さそうだったが、<a href="https://www.evernote.com/shard/s68/sh/782d6000-361f-4963-b3c1-84ff6af2b625/971f599e4c39cd8f" target="_blank" rel="external">ドキュメント</a> によると環境構築がちょっとめんどうだった。<br>（保存先を作れだとかなんとか）</p><p>一応ひととおり内容を把握してからやりたいので続きはまた今度することにした。</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;ここ数年エディタは sublime text が気に入っていて、 st3 のライセンスも買ったしメモ書きにもずっと使っている。最近人気の atom はだいぶ前にちょっと試してみたきり、いろいろと納得いかなくて乗り換えには至らなかった（大きめの CSS を開くとシンタックスハ
+      &lt;p&gt;ここ数年エディタは sublime text が気に入っていて、 st3 のライセンスも買ったしメモ書きにもずっと使っている。最近人気の atom はだいぶ前にちょっと試してみたきり、いろいろと納得いかなくて乗り換えには至らなかった（大きめの CSS を開くとシンタックスハイライトが処理しきれずに落ちたりしてた…）。  &lt;/p&gt;
     
     </summary>
     
@@ -75,35 +87,13 @@
     <link href="http://paki.github.io/2015/05/29/%E3%83%95%E3%82%99%E3%83%AD%E3%82%AF%E3%82%99%E3%81%AE%E3%82%BD%E3%83%BC%E3%82%B9%E7%AE%A1%E7%90%86%E3%81%A8-git-submodule-deinit/"/>
     <id>http://paki.github.io/2015/05/29/ブログのソース管理と-git-submodule-deinit/</id>
     <published>2015-05-28T16:41:52.000Z</published>
-    <updated>2017-09-20T14:44:54.000Z</updated>
+    <updated>2017-09-20T16:02:45.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="ソースも-git-で管理したかった"><a href="#ソースも-git-で管理したかった" class="headerlink" title="ソースも git で管理したかった"></a>ソースも git で管理したかった</h2><p><code>$ hexo deploy -g</code> するとページを生成しつつ公開用に push してくれるが、生成元の markdown ファイルや _config.yaml も git で管理したかった。</p>
-<p>というより、ローカルに置いといても無くしちゃうので管理する必要があった。</p>
-<p>で、<a href="https://harasou.jp/2015/04/28/hexo-setup/" title="hexo セットアップメモ" target="_blank" rel="external">この記事</a> の最後の段落、「hexo をリポジトリ管理」がまさにやりたいことだったので参考にしてさっそくやってみたのだけれど…。</p>
-<h2 id="init-できない"><a href="#init-できない" class="headerlink" title="init できない"></a>init できない</h2><p>まず、ブログのソースのあるディレクトリで <code>$ git init</code> がうまくいかない。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git init</div><div class="line">Reinitialized existing Git repository <span class="keyword">in</span> &#123;パスはいる&#125;</div></pre></td></tr></table></figure>
-<p>init した覚えないのに…と思いつつ確認してみると、 .gitignore があったので中身を確認してみる。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">.DS_Store</div><div class="line">Thumbs.db</div><div class="line">db.json</div><div class="line">*.<span class="built_in">log</span></div><div class="line">node_modules/</div><div class="line">public/</div><div class="line">.deploy*/</div></pre></td></tr></table></figure>
-<p>なるほど、これは hexo をインストールした時点で用意してくれていたようだ。</p>
-<h2 id="git-が入れ子状態"><a href="#git-が入れ子状態" class="headerlink" title="git が入れ子状態"></a>git が入れ子状態</h2><p>では、ということで add して commit したが、どうもうまくいかない…。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">$ git commit</div><div class="line">On branch master</div><div class="line">Changes not staged <span class="keyword">for</span> commit:</div><div class="line">  modified:   themes/apollo (modified content)</div><div class="line"></div><div class="line">no changes added to commit</div></pre></td></tr></table></figure>
-<p>どうも、テーマファイルを追加した際に git clone したので、 git の管理が入れ子になっちゃってるみたいだった。</p>
-<p>↓こんな感じ</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">.</div><div class="line">├── .git <span class="comment"># 親</span></div><div class="line">├── .gitignore</div><div class="line">├── _config.yml</div><div class="line">（略）</div><div class="line">└── themes</div><div class="line">    ├── apollo</div><div class="line">    │   ├── .git <span class="comment"># 子</span></div><div class="line">    │   （略）</div><div class="line">    │   └── _config.yaml <span class="comment"># 子を clone 後に編集した</span></div><div class="line">    └── landscape</div></pre></td></tr></table></figure>
-<p>とりあえず親ディレクトリから ./themes/apollo/_config.yaml を add してみるが失敗。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git add ./themes/apollo/_config.yml</div><div class="line">fatal: Pathspec <span class="string">'./themes/apollo/_config.yml'</span> is <span class="keyword">in</span> submodule <span class="string">'themes/apollo'</span></div></pre></td></tr></table></figure>
-<p>仕方ないので子ディレクトリ上で変更差分を commit する。<br>これは普通にできた。</p>
-<h2 id="submodule-のキャッシュをクリア"><a href="#submodule-のキャッシュをクリア" class="headerlink" title="submodule のキャッシュをクリア"></a>submodule のキャッシュをクリア</h2><p>submodule の設定なんてした覚えがないけれど、たぶんそういうことになっちゃってるぽいので試しに親ディレクトリで <code>submodule update</code> してみるがこれもなんかおかしい。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git submodule update</div><div class="line">No submodule mapping found <span class="keyword">in</span> .gitmodules <span class="keyword">for</span> path <span class="string">'themes/apollo'</span></div></pre></td></tr></table></figure>
-<p>検索しやすそうなエラーなのですぐに解決策がありそうな、 <a href="http://qiita.com/AtsushiShimo/items/b26c4d2033eb220bb8f9" title="Composer install したらgit submodule化してしまった" target="_blank" rel="external">それっぽい記事</a> が見つかった。<br>どうやら submodule のキャッシュを捨てれば良さそうだ。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ git rm --cached themes/apollo/</div><div class="line">$ git add themes/apollo/</div><div class="line">$ git submodule deinit themes/apollo/</div><div class="line">$ git status</div></pre></td></tr></table></figure>
-<p>うまくいった!!</p>
-<p>このあと、あらためて <code>$ git remote add</code> などをすませて無事に当初の目的を果たした。<br>（ブログ公開用リポジトリに、別ブランチでソースを push できた）<br>やれやれ。</p>
-]]></content>
+    <content type="html"><![CDATA[<h2 id="ソースも-git-で管理したかった"><a href="#ソースも-git-で管理したかった" class="headerlink" title="ソースも git で管理したかった"></a>ソースも git で管理したかった</h2><p><code>$ hexo deploy -g</code> するとページを生成しつつ公開用に push してくれるが、生成元の markdown ファイルや _config.yaml も git で管理したかった。</p><a id="more"></a><p>というより、ローカルに置いといても無くしちゃうので管理する必要があった。</p><p>で、<a href="https://harasou.jp/2015/04/28/hexo-setup/" title="hexo セットアップメモ" target="_blank" rel="external">この記事</a> の最後の段落、「hexo をリポジトリ管理」がまさにやりたいことだったので参考にしてさっそくやってみたのだけれど…。</p><h2 id="init-できない"><a href="#init-できない" class="headerlink" title="init できない"></a>init できない</h2><p>まず、ブログのソースのあるディレクトリで <code>$ git init</code> がうまくいかない。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git init</div><div class="line">Reinitialized existing Git repository <span class="keyword">in</span> &#123;パスはいる&#125;</div></pre></td></tr></table></figure><p>init した覚えないのに…と思いつつ確認してみると、 .gitignore があったので中身を確認してみる。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">.DS_Store</div><div class="line">Thumbs.db</div><div class="line">db.json</div><div class="line">*.<span class="built_in">log</span></div><div class="line">node_modules/</div><div class="line">public/</div><div class="line">.deploy*/</div></pre></td></tr></table></figure><p>なるほど、これは hexo をインストールした時点で用意してくれていたようだ。</p><h2 id="git-が入れ子状態"><a href="#git-が入れ子状態" class="headerlink" title="git が入れ子状態"></a>git が入れ子状態</h2><p>では、ということで add して commit したが、どうもうまくいかない…。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">$ git commit</div><div class="line">On branch master</div><div class="line">Changes not staged <span class="keyword">for</span> commit:</div><div class="line">  modified:   themes/apollo (modified content)</div><div class="line"></div><div class="line">no changes added to commit</div></pre></td></tr></table></figure><p>どうも、テーマファイルを追加した際に git clone したので、 git の管理が入れ子になっちゃってるみたいだった。</p><p>↓こんな感じ</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">.</div><div class="line">├── .git <span class="comment"># 親</span></div><div class="line">├── .gitignore</div><div class="line">├── _config.yml</div><div class="line">（略）</div><div class="line">└── themes</div><div class="line">    ├── apollo</div><div class="line">    │   ├── .git <span class="comment"># 子</span></div><div class="line">    │   （略）</div><div class="line">    │   └── _config.yaml <span class="comment"># 子を clone 後に編集した</span></div><div class="line">    └── landscape</div></pre></td></tr></table></figure><p>とりあえず親ディレクトリから ./themes/apollo/_config.yaml を add してみるが失敗。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git add ./themes/apollo/_config.yml</div><div class="line">fatal: Pathspec <span class="string">'./themes/apollo/_config.yml'</span> is <span class="keyword">in</span> submodule <span class="string">'themes/apollo'</span></div></pre></td></tr></table></figure><p>仕方ないので子ディレクトリ上で変更差分を commit する。<br>これは普通にできた。</p><h2 id="submodule-のキャッシュをクリア"><a href="#submodule-のキャッシュをクリア" class="headerlink" title="submodule のキャッシュをクリア"></a>submodule のキャッシュをクリア</h2><p>submodule の設定なんてした覚えがないけれど、たぶんそういうことになっちゃってるぽいので試しに親ディレクトリで <code>submodule update</code> してみるがこれもなんかおかしい。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git submodule update</div><div class="line">No submodule mapping found <span class="keyword">in</span> .gitmodules <span class="keyword">for</span> path <span class="string">'themes/apollo'</span></div></pre></td></tr></table></figure><p>検索しやすそうなエラーなのですぐに解決策がありそうな、 <a href="http://qiita.com/AtsushiShimo/items/b26c4d2033eb220bb8f9" title="Composer install したらgit submodule化してしまった" target="_blank" rel="external">それっぽい記事</a> が見つかった。<br>どうやら submodule のキャッシュを捨てれば良さそうだ。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ git rm --cached themes/apollo/</div><div class="line">$ git add themes/apollo/</div><div class="line">$ git submodule deinit themes/apollo/</div><div class="line">$ git status</div></pre></td></tr></table></figure><p>うまくいった!!</p><p>このあと、あらためて <code>$ git remote add</code> などをすませて無事に当初の目的を果たした。<br>（ブログ公開用リポジトリに、別ブランチでソースを push できた）<br>やれやれ。</p>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;ソースも-git-で管理したかった&quot;&gt;&lt;a href=&quot;#ソースも-git-で管理したかった&quot; class=&quot;headerlink&quot; title=&quot;ソースも git で管理したかった&quot;&gt;&lt;/a&gt;ソースも git で管理したかった&lt;/h2&gt;&lt;p&gt;&lt;code&gt;$ he
+      &lt;h2 id=&quot;ソースも-git-で管理したかった&quot;&gt;&lt;a href=&quot;#ソースも-git-で管理したかった&quot; class=&quot;headerlink&quot; title=&quot;ソースも git で管理したかった&quot;&gt;&lt;/a&gt;ソースも git で管理したかった&lt;/h2&gt;&lt;p&gt;&lt;code&gt;$ hexo deploy -g&lt;/code&gt; するとページを生成しつつ公開用に push してくれるが、生成元の markdown ファイルや _config.yaml も git で管理したかった。&lt;/p&gt;
     
     </summary>
     
@@ -119,22 +109,16 @@
     <link href="http://paki.github.io/2015/05/28/rss%E3%83%95%E3%82%A3%E3%83%BC%E3%83%88%E3%82%99%E3%82%92%E3%81%A4%E3%81%91%E3%81%9F/"/>
     <id>http://paki.github.io/2015/05/28/rssフィードをつけた/</id>
     <published>2015-05-27T16:13:56.000Z</published>
-    <updated>2015-05-27T16:30:52.000Z</updated>
+    <updated>2017-09-20T16:03:52.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="インストールと設定"><a href="#インストールと設定" class="headerlink" title="インストールと設定"></a>インストールと設定</h2><p><a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="external">hexo-generator-feed</a> をインストール</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-feed --save</div></pre></td></tr></table></figure>
-<p>_config.yml に以下を追記</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">feed:</span></div><div class="line"><span class="attr">    type:</span> <span class="string">atom</span></div><div class="line"><span class="attr">    path:</span> <span class="string">atom.xml</span></div><div class="line"><span class="attr">    limit:</span> <span class="number">20</span></div></pre></td></tr></table></figure>
-<h2 id="ついでにテーマもいれかえた"><a href="#ついでにテーマもいれかえた" class="headerlink" title="ついでにテーマもいれかえた"></a>ついでにテーマもいれかえた</h2><p>tumblr用の人気テーマ、 <a href="https://github.com/sanographix/tumblr/tree/master/apollo" target="_blank" rel="external">Apollo</a> を誰かが hexo のテーマに改変したもの。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/joyceim/hexo-theme-apollo.git themes/apollo</div></pre></td></tr></table></figure>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
-<li><a href="http://qiita.com/f_prg/items/c5a465c79a9980b98495" target="_blank" rel="external">HexoのRSSフィードプラグインを使ってみる</a></li>
-</ul>
-]]></content>
+    <content type="html"><![CDATA[<h2 id="インストールと設定"><a href="#インストールと設定" class="headerlink" title="インストールと設定"></a>インストールと設定</h2><p><a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="external">hexo-generator-feed</a> をインストール</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-feed --save</div></pre></td></tr></table></figure><p>_config.yml に以下を追記</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">feed:</span></div><div class="line"><span class="attr">    type:</span> <span class="string">atom</span></div><div class="line"><span class="attr">    path:</span> <span class="string">atom.xml</span></div><div class="line"><span class="attr">    limit:</span> <span class="number">20</span></div></pre></td></tr></table></figure><a id="more"></a><h2 id="ついでにテーマもいれかえた"><a href="#ついでにテーマもいれかえた" class="headerlink" title="ついでにテーマもいれかえた"></a>ついでにテーマもいれかえた</h2><p>tumblr用の人気テーマ、 <a href="https://github.com/sanographix/tumblr/tree/master/apollo" target="_blank" rel="external">Apollo</a> を誰かが hexo のテーマに改変したもの。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/joyceim/hexo-theme-apollo.git themes/apollo</div></pre></td></tr></table></figure><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="http://qiita.com/f_prg/items/c5a465c79a9980b98495" target="_blank" rel="external">HexoのRSSフィードプラグインを使ってみる</a></li></ul>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;インストールと設定&quot;&gt;&lt;a href=&quot;#インストールと設定&quot; class=&quot;headerlink&quot; title=&quot;インストールと設定&quot;&gt;&lt;/a&gt;インストールと設定&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/hexojs/hexo-ge
+      &lt;h2 id=&quot;インストールと設定&quot;&gt;&lt;a href=&quot;#インストールと設定&quot; class=&quot;headerlink&quot; title=&quot;インストールと設定&quot;&gt;&lt;/a&gt;インストールと設定&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/hexojs/hexo-generator-feed&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-generator-feed&lt;/a&gt; をインストール&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ npm install hexo-generator-feed --save&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;_config.yml に以下を追記&lt;/p&gt;
+&lt;figure class=&quot;highlight yaml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;feed:&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;    type:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;atom&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;    path:&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;atom.xml&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;    limit:&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;20&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
@@ -148,32 +132,15 @@
     <link href="http://paki.github.io/2015/05/27/Chrome-%E3%81%A6%E3%82%99-0-0-0-0-%E3%81%8B%E3%82%99%E5%8F%A9%E3%81%91%E3%81%AA%E3%81%84/"/>
     <id>http://paki.github.io/2015/05/27/Chrome-で-0-0-0-0-が叩けない/</id>
     <published>2015-05-26T17:09:27.000Z</published>
-    <updated>2015-06-15T17:05:58.000Z</updated>
+    <updated>2017-09-20T16:04:33.000Z</updated>
     
-    <content type="html"><![CDATA[<p><ins></ins></p>
-<h2 id="2015-06-15-追記"><a href="#2015-06-15-追記" class="headerlink" title="2015-06-15 追記"></a>2015-06-15 追記</h2><p>いつのまにか直接入力しても検索扱いにならなくなっていた。<br>（chrome 43.0.2357.81 にて確認）<br></p>
-<hr>
-<h2 id="検索扱いになってしまう"><a href="#検索扱いになってしまう" class="headerlink" title="検索扱いになってしまう"></a>検索扱いになってしまう</h2><p><code>hexo server</code> すると URL が表示される。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div><div class="line">INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.</div></pre></td></tr></table></figure>
-<p>この <code>http://0.0.0.0:4000/</code> は chrome のアドレスバー（Omnibox）にコピペしても開くことができない。<br>Omnibox は 0 で始まる文字列をURLとして取り扱わないで、検索キーワードとしてgoogle検索にかけてしまうようだ。</p>
-<h2 id="解決"><a href="#解決" class="headerlink" title="解決"></a>解決</h2><p>デフォルトのブラウザが chrome なら、</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server -o</div></pre></td></tr></table></figure>
-<p>とするか、<br>サーバ起動後に別タブで</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ open http://0.0.0.0:4000/</div></pre></td></tr></table></figure>
-<p>とすれば検索扱いにならずにちゃんと開くことができる。</p>
-<p>（とりあえず、<code>http://127.0.0.1:4000/</code> や <code>http://localhost:4000/</code> としてもいいけどなんとなく指定通りのアドレスで開きたかったので…）</p>
-<hr>
-<p>この <code>0.0.0.0</code> は <code>127.0.0.1</code> や <code>localhost</code> と同じようなもんだと思ってたんだけど、どうも本来はそのように定義されていないのに習慣的に同じにされちゃってるだけのことみたいらしい。<br>なので、むしろ本来は「0.0.0.0を明示的なURLとして扱うほうがバグっぽい」ことになるらしい…。</p>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
-<li><a href="https://code.google.com/p/chromium/issues/detail?id=428046" target="_blank" rel="external">Issue 428046:  Omnibox refuses to allow navigation to 0.0.0.0</a></li>
-<li><a href="https://code.google.com/p/chromium/issues/detail?id=466329" target="_blank" rel="external">Issue 466329: Can’t visit 0.0.0.0:4200 URLs with a path (i.e., 0.0.0.0:4200/some_path/file.ext)</a></li>
-</ul>
-]]></content>
+    <content type="html"><![CDATA[<h2 id="検索扱いになってしまう"><a href="#検索扱いになってしまう" class="headerlink" title="検索扱いになってしまう"></a>検索扱いになってしまう</h2><p><code>hexo server</code> すると URL が表示される。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div><div class="line">INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.</div></pre></td></tr></table></figure><p>この <code>http://0.0.0.0:4000/</code> は chrome のアドレスバー（Omnibox）にコピペしても開くことができない。<br>Omnibox は 0 で始まる文字列をURLとして取り扱わないで、検索キーワードとしてgoogle検索にかけてしまうようだ。</p><a id="more"></a><h2 id="解決"><a href="#解決" class="headerlink" title="解決"></a>解決</h2><p>デフォルトのブラウザが chrome なら、</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server -o</div></pre></td></tr></table></figure><p>とするか、<br>サーバ起動後に別タブで</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ open http://0.0.0.0:4000/</div></pre></td></tr></table></figure><p>とすれば検索扱いにならずにちゃんと開くことができる。</p><p>（とりあえず、<code>http://127.0.0.1:4000/</code> や <code>http://localhost:4000/</code> としてもいいけどなんとなく指定通りのアドレスで開きたかったので…）</p><hr><p>この <code>0.0.0.0</code> は <code>127.0.0.1</code> や <code>localhost</code> と同じようなもんだと思ってたんだけど、どうも本来はそのように定義されていないのに習慣的に同じにされちゃってるだけのことみたいらしい。<br>なので、むしろ本来は「0.0.0.0を明示的なURLとして扱うほうがバグっぽい」ことになるらしい…。</p><p><ins></ins></p><h2 id="2015-06-15-追記"><a href="#2015-06-15-追記" class="headerlink" title="2015-06-15 追記"></a>2015-06-15 追記</h2><p>いつのまにか直接入力しても検索扱いにならなくなっていた。<br>（chrome 43.0.2357.81 にて確認）<br></p><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="https://code.google.com/p/chromium/issues/detail?id=428046" target="_blank" rel="external">Issue 428046:  Omnibox refuses to allow navigation to 0.0.0.0</a></li><li><a href="https://code.google.com/p/chromium/issues/detail?id=466329" target="_blank" rel="external">Issue 466329: Can’t visit 0.0.0.0:4200 URLs with a path (i.e., 0.0.0.0:4200/some_path/file.ext)</a></li></ul>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;ins&gt;&lt;/ins&gt;&lt;/p&gt;
-&lt;h2 id=&quot;2015-06-15-追記&quot;&gt;&lt;a href=&quot;#2015-06-15-追記&quot; class=&quot;headerlink&quot; title=&quot;2015-06-15 追記&quot;&gt;&lt;/a&gt;2015-06-15 追記&lt;/h2&gt;&lt;p&gt;いつのまにか直
+      &lt;h2 id=&quot;検索扱いになってしまう&quot;&gt;&lt;a href=&quot;#検索扱いになってしまう&quot; class=&quot;headerlink&quot; title=&quot;検索扱いになってしまう&quot;&gt;&lt;/a&gt;検索扱いになってしまう&lt;/h2&gt;&lt;p&gt;&lt;code&gt;hexo server&lt;/code&gt; すると URL が表示される。&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo server&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;この &lt;code&gt;http://0.0.0.0:4000/&lt;/code&gt; は chrome のアドレスバー（Omnibox）にコピペしても開くことができない。&lt;br&gt;Omnibox は 0 で始まる文字列をURLとして取り扱わないで、検索キーワードとしてgoogle検索にかけてしまうようだ。&lt;/p&gt;
     
     </summary>
     
@@ -187,37 +154,13 @@
     <link href="http://paki.github.io/2015/05/26/hexo%E3%81%A6%E3%82%99%E3%83%95%E3%82%99%E3%83%AD%E3%82%AF%E3%82%99%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%9F/"/>
     <id>http://paki.github.io/2015/05/26/hexoでブログつくった/</id>
     <published>2015-05-25T18:43:40.000Z</published>
-    <updated>2015-05-27T16:21:20.000Z</updated>
+    <updated>2017-09-20T16:03:33.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="ジェネレータの選定"><a href="#ジェネレータの選定" class="headerlink" title="ジェネレータの選定"></a>ジェネレータの選定</h2><p>もともと jekyll でなんかやってみようかと思っていたけど、だいぶ時間があいてしまったのであらためてジェネレータを調査するところから。</p>
-<p>静的サイトジェネレータ一覧サイト <a href="https://staticsitegenerators.net/" target="_blank" rel="external">Static Site Generators</a> でなんとなくあたりをつけてみる。</p>
-<p><a href="http://hubpress.io/" target="_blank" rel="external">HubPress</a> なんかも面白そうだったけど Github Pages に束縛されてしまう…。</p>
-<p>結果、 以下の点が気に入ったので <a href="http://hexo.io/" target="_blank" rel="external">hexo</a> にすることにした。</p>
-<ul>
-<li>ローカルで確認しやすい</li>
-<li>markdown で投稿できる</li>
-<li>jekyll とか octpress とかよりは新しめ</li>
-<li>npm で管理できる</li>
-<li>テンプレートエンジンの ejs がなんとなくとっつきやすそうだった</li>
-</ul>
-<p>※投稿するだけならテンプレートをいじる必要ないです</p>
-<h2 id="準備"><a href="#準備" class="headerlink" title="準備"></a>準備</h2><p>LIGの <a href="http://liginc.co.jp/web/programming/server/104594" target="_blank" rel="external">hexo紹介記事</a> を見ながらインストール。<br>（ちゃんとまとめると執筆にけっこう時間がかかりそうなので、会社のPRも兼ねてとはいえ大変だろうな〜と思う…。ありがとうございます。）</p>
-<p>ただ、今回インストールした hexo: 3.1.1 ではデプロイのところでこんなエラーが出る。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy -g</div><div class="line">（省略）</div><div class="line">ERROR Deployer not found: github</div></pre></td></tr></table></figure>
-<p>適当にググったところ <a href="https://github.com/hexojs/hexo/issues/1040#issuecomment-104904448" target="_blank" rel="external">hexoのissue</a>  に解決法があった。</p>
-<p>_config.yml の deploy type のとこを編集<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">git</span> <span class="comment"># github ではなく git を指定</span></div></pre></td></tr></table></figure></p>
-<p>hexo-deployer-git を追加でインストール<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure></p>
-<p>これで <code>$ hexo deploy -g</code> できるようになる。</p>
-<p>そのまま、この記事を書いてデプロイして完了。<br>「3分」とはいかなかったけど、シンプルな手順なので wordpress の管理画面開くよりも早くて簡単!!</p>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
-<li><a href="http://liginc.co.jp/web/programming/server/104594" target="_blank" rel="external">所要時間3分!? Github PagesとHEXOで爆速ブログ構築してみよう！</a></li>
-<li><a href="http://qiita.com/okmttdhr/items/82ecb0332835472e905f" target="_blank" rel="external">Github Pagesでブログ構築ができる静的サイトジェネレーター総まとめ</a></li>
-</ul>
-]]></content>
+    <content type="html"><![CDATA[<h2 id="ジェネレータの選定"><a href="#ジェネレータの選定" class="headerlink" title="ジェネレータの選定"></a>ジェネレータの選定</h2><p>もともと jekyll でなんかやってみようかと思っていたけど、だいぶ時間があいてしまったのであらためてジェネレータを調査するところから。</p><a id="more"></a><p>静的サイトジェネレータ一覧サイト <a href="https://staticsitegenerators.net/" target="_blank" rel="external">Static Site Generators</a> でなんとなくあたりをつけてみる。</p><p><a href="http://hubpress.io/" target="_blank" rel="external">HubPress</a> なんかも面白そうだったけど Github Pages に束縛されてしまう…。</p><p>結果、 以下の点が気に入ったので <a href="http://hexo.io/" target="_blank" rel="external">hexo</a> にすることにした。</p><ul><li>ローカルで確認しやすい</li><li>markdown で投稿できる</li><li>jekyll とか octpress とかよりは新しめ</li><li>npm で管理できる</li><li>テンプレートエンジンの ejs がなんとなくとっつきやすそうだった</li></ul><p>※投稿するだけならテンプレートをいじる必要ないです</p><h2 id="準備"><a href="#準備" class="headerlink" title="準備"></a>準備</h2><p>LIGの <a href="http://liginc.co.jp/web/programming/server/104594" target="_blank" rel="external">hexo紹介記事</a> を見ながらインストール。<br>（ちゃんとまとめると執筆にけっこう時間がかかりそうなので、会社のPRも兼ねてとはいえ大変だろうな〜と思う…。ありがとうございます。）</p><p>ただ、今回インストールした hexo: 3.1.1 ではデプロイのところでこんなエラーが出る。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy -g</div><div class="line">（省略）</div><div class="line">ERROR Deployer not found: github</div></pre></td></tr></table></figure><p>適当にググったところ <a href="https://github.com/hexojs/hexo/issues/1040#issuecomment-104904448" target="_blank" rel="external">hexoのissue</a>  に解決法があった。</p><p>_config.yml の deploy type のとこを編集<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">git</span> <span class="comment"># github ではなく git を指定</span></div></pre></td></tr></table></figure></p><p>hexo-deployer-git を追加でインストール<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure></p><p>これで <code>$ hexo deploy -g</code> できるようになる。</p><p>そのまま、この記事を書いてデプロイして完了。<br>「3分」とはいかなかったけど、シンプルな手順なので wordpress の管理画面開くよりも早くて簡単!!</p><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="http://liginc.co.jp/web/programming/server/104594" target="_blank" rel="external">所要時間3分!? Github PagesとHEXOで爆速ブログ構築してみよう！</a></li><li><a href="http://qiita.com/okmttdhr/items/82ecb0332835472e905f" target="_blank" rel="external">Github Pagesでブログ構築ができる静的サイトジェネレーター総まとめ</a></li></ul>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;ジェネレータの選定&quot;&gt;&lt;a href=&quot;#ジェネレータの選定&quot; class=&quot;headerlink&quot; title=&quot;ジェネレータの選定&quot;&gt;&lt;/a&gt;ジェネレータの選定&lt;/h2&gt;&lt;p&gt;もともと jekyll でなんかやってみようかと思っていたけど、だいぶ時間があいてし
+      &lt;h2 id=&quot;ジェネレータの選定&quot;&gt;&lt;a href=&quot;#ジェネレータの選定&quot; class=&quot;headerlink&quot; title=&quot;ジェネレータの選定&quot;&gt;&lt;/a&gt;ジェネレータの選定&lt;/h2&gt;&lt;p&gt;もともと jekyll でなんかやってみようかと思っていたけど、だいぶ時間があいてしまったのであらためてジェネレータを調査するところから。&lt;/p&gt;
     
     </summary>
     

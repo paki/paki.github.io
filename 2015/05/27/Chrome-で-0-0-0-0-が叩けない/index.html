@@ -5,17 +5,18 @@
   
   <title>Chrome で 0.0.0.0 が叩けない | User Interfxxk</title>
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="2015-06-15 追記いつのまにか直接入力しても検索扱いにならなくなっていた。（chrome 43.0.2357.81 にて確認）  検索扱いになってしまうhexo server すると URL が表示される。 12$ hexo serverINFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop. この http">
+  <meta name="description" content="検索扱いになってしまうhexo server すると URL が表示される。 12$ hexo serverINFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop. この http://0.0.0.0:4000/ は chrome のアドレスバー（Omnibox）にコピペしても開くことができない。Omnibox は 0">
 <meta name="keywords" content="chrome">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Chrome で 0.0.0.0 が叩けない">
 <meta property="og:url" content="http://paki.github.io/2015/05/27/Chrome-で-0-0-0-0-が叩けない/index.html">
 <meta property="og:site_name" content="User Interfxxk">
-<meta property="og:description" content="2015-06-15 追記いつのまにか直接入力しても検索扱いにならなくなっていた。（chrome 43.0.2357.81 にて確認）  検索扱いになってしまうhexo server すると URL が表示される。 12$ hexo serverINFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop. この http">
-<meta property="og:updated_time" content="2015-06-15T17:05:58.000Z">
+<meta property="og:description" content="検索扱いになってしまうhexo server すると URL が表示される。 12$ hexo serverINFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop. この http://0.0.0.0:4000/ は chrome のアドレスバー（Omnibox）にコピペしても開くことができない。Omnibox は 0">
+<meta property="og:locale" content="ja">
+<meta property="og:updated_time" content="2017-09-20T16:04:33.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Chrome で 0.0.0.0 が叩けない">
-<meta name="twitter:description" content="2015-06-15 追記いつのまにか直接入力しても検索扱いにならなくなっていた。（chrome 43.0.2357.81 にて確認）  検索扱いになってしまうhexo server すると URL が表示される。 12$ hexo serverINFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop. この http">
+<meta name="twitter:description" content="検索扱いになってしまうhexo server すると URL が表示される。 12$ hexo serverINFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop. この http://0.0.0.0:4000/ は chrome のアドレスバー（Omnibox）にコピペしても開くことができない。Omnibox は 0">
   
     <link rel="alternative" href="/atom.xml" title="User Interfxxk" type="application/atom+xml">
   
@@ -84,12 +85,10 @@ ga('send', 'pageview');
 	</header>
 	<div class="entry-content">
 		
-    	<p><ins></ins></p>
-<h2 id="2015-06-15-追記"><a href="#2015-06-15-追記" class="headerlink" title="2015-06-15 追記"></a>2015-06-15 追記</h2><p>いつのまにか直接入力しても検索扱いにならなくなっていた。<br>（chrome 43.0.2357.81 にて確認）<br></p>
-<hr>
-<h2 id="検索扱いになってしまう"><a href="#検索扱いになってしまう" class="headerlink" title="検索扱いになってしまう"></a>検索扱いになってしまう</h2><p><code>hexo server</code> すると URL が表示される。</p>
+    	<h2 id="検索扱いになってしまう"><a href="#検索扱いになってしまう" class="headerlink" title="検索扱いになってしまう"></a>検索扱いになってしまう</h2><p><code>hexo server</code> すると URL が表示される。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div><div class="line">INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.</div></pre></td></tr></table></figure>
 <p>この <code>http://0.0.0.0:4000/</code> は chrome のアドレスバー（Omnibox）にコピペしても開くことができない。<br>Omnibox は 0 で始まる文字列をURLとして取り扱わないで、検索キーワードとしてgoogle検索にかけてしまうようだ。</p>
+<a id="more"></a>
 <h2 id="解決"><a href="#解決" class="headerlink" title="解決"></a>解決</h2><p>デフォルトのブラウザが chrome なら、</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server -o</div></pre></td></tr></table></figure>
 <p>とするか、<br>サーバ起動後に別タブで</p>
@@ -98,6 +97,8 @@ ga('send', 'pageview');
 <p>（とりあえず、<code>http://127.0.0.1:4000/</code> や <code>http://localhost:4000/</code> としてもいいけどなんとなく指定通りのアドレスで開きたかったので…）</p>
 <hr>
 <p>この <code>0.0.0.0</code> は <code>127.0.0.1</code> や <code>localhost</code> と同じようなもんだと思ってたんだけど、どうも本来はそのように定義されていないのに習慣的に同じにされちゃってるだけのことみたいらしい。<br>なので、むしろ本来は「0.0.0.0を明示的なURLとして扱うほうがバグっぽい」ことになるらしい…。</p>
+<p><ins></ins></p>
+<h2 id="2015-06-15-追記"><a href="#2015-06-15-追記" class="headerlink" title="2015-06-15 追記"></a>2015-06-15 追記</h2><p>いつのまにか直接入力しても検索扱いにならなくなっていた。<br>（chrome 43.0.2357.81 にて確認）<br></p>
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
 <li><a href="https://code.google.com/p/chromium/issues/detail?id=428046" target="_blank" rel="external">Issue 428046:  Omnibox refuses to allow navigation to 0.0.0.0</a></li>
 <li><a href="https://code.google.com/p/chromium/issues/detail?id=466329" target="_blank" rel="external">Issue 466329: Can’t visit 0.0.0.0:4200 URLs with a path (i.e., 0.0.0.0:4200/some_path/file.ext)</a></li>
